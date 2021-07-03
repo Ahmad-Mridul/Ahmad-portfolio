@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half_width{
     width: 50%;
@@ -26,5 +27,12 @@ section{
 .top_section{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
-    
+}
+.content{
+    margin-top: 20px;
+}
+.mid_section{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
