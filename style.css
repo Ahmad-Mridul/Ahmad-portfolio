@@ -36,3 +36,30 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.box_shadow{
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left; 
+}
+#fullstack_border{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,blue);
+    border-image-slice: 1;
+}
+#junior_border{
+    border-left: 7px solid;
+    border-image: linear-gradient(seagreen,orange);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
